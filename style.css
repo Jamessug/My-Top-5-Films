@@ -1,0 +1,335 @@
+ body {
+    background-color: rgb(46, 46, 53);
+    color: white;
+    font-size: 14px;
+ }
+ 
+ h1 {  
+    color: rgb(122, 58, 206); 
+    font-size: 75px;
+    background-color: rgb(20, 19, 22);
+    border-radius: 5px;
+    text-shadow: rgb(36, 2, 82) 4px 4px;
+    box-shadow: black 1px 2px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+ h2 {  
+    color:rgb(122, 58, 206) ; 
+    font-size: 50px;
+    background-color: rgb(20, 19, 22);
+    border-radius: 5px;
+    text-shadow: rgb(36, 2, 82) 4px 4px;
+    box-shadow: black 1px 2px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {  
+    color: rgb(122, 58, 206); 
+    font-size: 35px;
+    background-color: rgb(20, 19, 22);
+    border-radius: 5px;
+    text-shadow: rgb(36, 2, 82) 4px 4px;
+    box-shadow: black 1px 2px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.foot {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+.container{
+    display: flex;
+}
+
+.img-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.synopsis {
+    flex: 1;
+    padding-left: 0 20px;
+}
+
+.img-br1 {
+    background-image: url("br.jpg");
+    width: 80%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-pansl1 {
+    background-image: url("pansl1.jpg");
+    width: 80%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-lotr {
+    background-image: url("lotr.jpg");
+    width: 80%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-jp {
+    background-image: url("jp.jpg");
+    width: 80%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-sw {
+    background-image: url("sw.jpg");
+    width: 80%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbar {
+    display: flex;
+    border-radius: 5px;
+    padding: 8px;
+    justify-content: space-evenly;
+    background-color:  rgb(20, 19, 22);
+}
+
+#navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+  }
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-family: Verdana, Tahoma, sans-serif;
+  }
+  
+th {
+    background-color: #585961;
+    font-weight: bold;
+  }
+  
+tr:nth-child(even) {
+    background-color: #585961;
+  }
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+.img-arr {
+    background-image: url("arr.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.img-cook1 {
+    background-image: url("cookoo1.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.img-esb {
+    background-image: url("esb.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.img-hood1 {
+    background-image: url("hood1.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.img-hood2 {
+    background-image: url("hood2.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.img-lll {
+    background-image: url("lll.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.img-lotr1 {
+    background-image: url("lotr1.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.img-lotr2 {
+    background-image: url("lotr2.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.img-pulp1 {
+    background-image: url("pulp1.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.img-sb {
+    background-image: url("sb.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.img-sbm {
+    background-image: url("sbm.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.img-tdk {
+    background-image: url("tdk.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-br2 {
+    background-image: url("br2.png");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-in {
+    background-image: url("in.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-in2 {
+    background-image: url("in2.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-pok {
+    background-image: url("pok.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-spi {
+    background-image: url("spi.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-res {
+    background-image: url("res.jpg");
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
